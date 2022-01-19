@@ -1,0 +1,40 @@
+{
+    "name": "mylibrary",
+    "productName": "mylibrary",
+    "version": "1.0.0",
+    "description": "My VR Library",
+    "main": "src/main.js",
+    "scripts": {
+        "start": "electron-forge start",
+        "package": "electron-forge package",
+        "make": "electron-forge make",
+        "publish": "electron-forge publish",
+        "lint": "echo \"No linting configured\""
+    },
+    "keywords": [],
+    "author": {
+        "name": "r03ert0",
+        "email": "robertotoro@gmail.com"
+    },
+    "license": "MIT",
+    "config": {
+        "forge": "./forge.config.js"
+    },
+    "dependencies": {
+        "electron-squirrel-startup": "^1.0.0",
+        "axios": "^0.24.0",
+        "live-server": "github:r03ert0/live-server",
+        "monk": "^7.3.4",
+        "request": "^2.88.2",
+        "three": "^0.126.1"
+    },
+    "devDependencies": {
+        "@electron-forge/cli": "^6.0.0-beta.61",
+        "@electron-forge/maker-deb": "^6.0.0-beta.61",
+        "@electron-forge/maker-rpm": "^6.0.0-beta.61",
+        "@electron-forge/maker-squirrel": "^6.0.0-beta.61",
+        "@electron-forge/maker-zip": "^6.0.0-beta.61",
+        "electron": "16.0.5",
+        "eslint-config-naat": "github:neuroanatomy/eslint-config-naat"
+    }
+}
